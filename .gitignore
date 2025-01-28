@@ -1,0 +1,5 @@
+# .gitignore
+.env
+*.env.local
+whisper_large_workspace/
+text_large/
