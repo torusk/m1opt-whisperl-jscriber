@@ -1,6 +1,8 @@
 # m1opt-whisperl-jscriber
 
-M1Mac向けに最適化された Whisper.cpp を使用した音声書き起こしツールです。Macに付属のGarageBand（.band）プロジェクトから音声を抽出し、Whisper で日本語の文章をテキスト化します。
+M1Mac 向けに最適化された Whisper.cpp を使用した音声書き起こしツールです。
+Mac に付属の GarageBand（.band）プロジェクトから音声を抽出し、Whisper で日本語の文章をテキスト化します。
+およそ録音時間の半分の長さで書き起こしが完了します。
 
 ## 特徴
 
