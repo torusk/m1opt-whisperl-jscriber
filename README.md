@@ -52,6 +52,12 @@ chmod +x daily_large.sh
 ./daily_large.sh
 ```
 
+スリープを防いで実行
+
+```
+caffeinate -i
+```
+
 3. 対話形式でプロジェクトを選択
 
 4. 生成されたテキストは `text_large/` ディレクトリに保存
