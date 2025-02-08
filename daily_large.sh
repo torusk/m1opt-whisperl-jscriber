@@ -7,7 +7,7 @@ source .env || { echo ".envファイルが見つかりません"; exit 1; }
 FFMPEG_PATH="${FFMPEG_PATH:-/opt/homebrew/bin/ffmpeg}" # デフォルト値設定
 PYTHON_SCRIPT="${WORK_DIR}/jtrance_large.py" # WORK_DIRベースでパス構築
 
-# 派生ディレクトリの設定
+# 関連ディレクトリの設定
 WHISPER_DIR="${WORK_DIR}/whisper_large_workspace"
 TEXT_DIR="${WORK_DIR}/text_large"
 
