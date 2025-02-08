@@ -52,6 +52,11 @@ chmod +x daily_large.sh
 ./daily_large.sh
 ```
 
+```
+2-2.スクリプト実行(ディレクトリ内の全ファイル)
+./alldiry.sh
+```
+
 スリープを防いで実行
 
 ```
