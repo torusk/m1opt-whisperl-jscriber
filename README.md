@@ -32,7 +32,7 @@ cd m1-whisper-large-transcriber
 WORK_DIR="/path/to/your/workspace"
 WHISPER_MODEL_PATH="/path/to/ggml-large.bin"
 WHISPER_CLI_PATH="/path/to/whisper.cpp/main"
-FFMPEG_PATH="/opt/homebrew/bin/ffmpeg" # M1 デフォルトパス
+FFMPEG_PATH="/opt/homebrew/bin/ffmpeg"
 ```
 
 3. 依存関係のインストール:
@@ -57,7 +57,7 @@ chmod +x daily_large.sh
 ./alldiry.sh
 ```
 
-スリープを防いで実行
+    スリープを防いで実行
 
 ```
 caffeinate -i
